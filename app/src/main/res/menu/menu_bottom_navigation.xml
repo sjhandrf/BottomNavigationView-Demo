@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_news"
+        android:icon="@mipmap/ic_news_gray"
+        app:showAsAction="ifRoom"
+        android:title="新闻" />
+    <item
+        android:id="@+id/item_lib"
+        android:icon="@mipmap/ic_library_gray"
+        app:showAsAction="ifRoom"
+        android:title="图书" />
+
+    <item
+        android:id="@+id/item_find"
+        android:icon="@mipmap/ic_discovery_gray"
+        app:showAsAction="ifRoom"
+        android:title="发现" />
+
+    <item
+        android:id="@+id/item_more"
+        android:icon="@mipmap/ic_more_gray"
+        app:showAsAction="ifRoom"
+        android:title="更多" />
+
+</menu>
